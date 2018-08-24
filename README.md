@@ -21,7 +21,11 @@ This starter pack have this avantages for me :
       - Install a specific packages "aws-sdk" to talk to the various AWS services
 - Write the various backend APIs with nodeJS. For the needed, just one function call getDataGeoJson, who return all the geographical data formatted in GeoJSON.
 ###### Instructions for deployment :
-dvsdvsdvsdv
+The api backend has already deploy by me, [here is the endpoints url](https://awtpiluamk.execute-api.eu-west-3.amazonaws.com/dev/airwaretest)
+If you want to deploy the project in local, you just need to launch this command line:
+``` bash
+$ serverless deploy
+```
 
 #### Frontend (folder client):
 - Set up the front project with Create React App. We'll use the [Create React App](https://github.com/facebook/create-react-app/blob/next/README.md#create-react-app-) project to be faster to deploy the project.
