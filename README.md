@@ -34,12 +34,7 @@ i choose this project because comes pre-loaded with a pretty convenient yet mini
 - Install the package AWS amplify to allow our React app to talk to the AWS resources that we created in folder api (backend)
 - Inside src/App.js i create the code which will allow me to connect to the previously created API and retieve the GeoJSON. This object is used in a leaflet map using react-leaflet component
 ###### Instructions for deployment :
-To deploy the frontend, i used Netlify. The url is [https://airwaretest.netlify.com/](https://airwaretest.netlify.com/)
-To deploy and test in local you only have to launch this command inside client directory:
-``` bash
-$ npm start
-```
-The command return the localhost url to access to your frontend app.
+To deploy the frontend, i used Netlify and a github repository of the client app. The url is [https://airwaretest.netlify.com/](https://airwaretest.netlify.com/)
 
 #### Todo/ideas of enhancements:
 - Deploy the application to S3 to make it available via a domain name using AWS Route 53 and secure the application in https with Aws Certificate Manage
