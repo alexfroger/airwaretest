@@ -26,12 +26,14 @@ If you want to deploy the project in local, you just need to launch this command
 ``` bash
 $ serverless deploy
 ```
+This will automatically create our endpoint API url and Lambda function
 
 #### Frontend (folder client):
 - Set up the front project with Create React App. We'll use the [Create React App](https://github.com/facebook/create-react-app/blob/next/README.md#create-react-app-) project to be faster to deploy the project.
 i choose this project because comes pre-loaded with a pretty convenient yet minimal development environment. It includes live reloading, a testing framework, ES6 support, and much more. It just for a question of time :)
 - Install the package AWS amplify to allow our React app to talk to the AWS resources that we created in folder api (backend)
 - Inside src/App.js i create the code which will allow me to connect to the previously created API and retieve the GeoJSON. This object is used in a leaflet map using react-leaflet component
+###### Instructions for deployment :
 
 #### Todo/ideas of enhancements:
 - Deploy the application to S3 to make it available via a domain name using AWS Route 53 and secure the application in https with Aws Certificate Manage
