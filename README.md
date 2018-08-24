@@ -26,7 +26,7 @@ To deploy the local project in our AWS services, i just need to launch this comm
 ``` bash
 $ serverless deploy
 ```
-This will automatically create our endpoint API url and Lambda function. After you just need to change parameters inside client/src/config.js
+This will automatically create our endpoint API url and Lambda function.
 
 #### Frontend (folder "client"):
 - Set up the front project with Create React App. We'll use the [Create React App](https://github.com/facebook/create-react-app/blob/next/README.md#create-react-app-) project to be faster to deploy the project.
