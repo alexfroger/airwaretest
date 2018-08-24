@@ -20,12 +20,18 @@ This starter pack have this avantages for me :
       - Install all the dependencies with npm install
       - Install a specific packages "aws-sdk" to talk to the various AWS services
 - Write the various backend APIs with nodeJS. For the needed, just one function call getDataGeoJson, who return all the geographical data formatted in GeoJSON.
+###### Instructions for deployment :
+dvsdvsdvsdv
 
 #### Frontend (folder client):
-- Set up the front project with Create React App. We'll use the Create React App project to be faster to deploy the project.
+- Set up the front project with Create React App. We'll use the [Create React App](https://github.com/facebook/create-react-app/blob/next/README.md#create-react-app-) project to be faster to deploy the project.
 i choose this project because comes pre-loaded with a pretty convenient yet minimal development environment. It includes live reloading, a testing framework, ES6 support, and much more. It just for a question of time :)
 - Install the package AWS amplify to allow our React app to talk to the AWS resources that we created in folder api (backend)
 - Inside src/App.js i create the code which will allow me to connect to the previously created API and retieve the GeoJSON. This object is used in a leaflet map using react-leaflet component
 
 #### Todo/ideas of enhancements:
-- dsfsd
+- Deploy the application to S3 to make it available via a domain name using AWS Route 53 and secure the application in https with Aws Certificate Manage
+- Use Aws cognito to manage user, add a login page to secure the application
+- More advanced management of input sources from simple text or conneced to file management API(s) like google drive, amazon, dropbox.
+- Integrate Bootstrap to make the application look more friendly with the package [React-Bootstrap](https://react-bootstrap.github.io/)
+- Implementation of unit test with Jest to test the proper functioning of the code and improve the quality of the code
