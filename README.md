@@ -39,6 +39,9 @@ To deploy the frontend, i used Netlify and a github repository of the client app
 #### Todo/ideas of enhancements:
 - Deploy the application to S3 to make it available via a domain name using AWS Route 53 and secure the application in https with Aws Certificate Manage
 - Use Aws cognito to manage user, add a login page to secure the application
-- More advanced management of input sources from simple text or conneced to file management API(s) like google drive, amazon, dropbox.
+- More advanced management of input sources from simple text or connected to file management API(s) like google drive, amazon, dropbox.
 - Integrate Bootstrap to make the application look more friendly with the package [React-Bootstrap](https://react-bootstrap.github.io/)
-- Implementation of unit test with Jest to test the proper functioning of the code and improve the quality of the code
+- Implementation of unit test with Jest to test the proper functioning of the code and improve the quality of the code.
+- Set up SSL to serve our app over HTTPS
+
+I really like to learn to use AWS. it seems to be awesome :)
