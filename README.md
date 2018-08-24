@@ -32,12 +32,12 @@ This will automatically create our endpoint API url and Lambda function.
 - Set up the front project with Create React App. We'll use the [Create React App](https://github.com/facebook/create-react-app/blob/next/README.md#create-react-app-) project to be faster to deploy the project.
 i choose this project because comes pre-loaded with a pretty convenient yet minimal development environment. It includes live reloading, a testing framework, ES6 support, and much more. It just for a question of time :)
 - Install the package AWS amplify to allow our React app to talk to the AWS resources that we created in folder api (backend)
-- Inside src/App.js i create the code which will allow me to connect to the previously created API and retieve the GeoJSON. This object is used in a leaflet map using react-leaflet component
+- Inside src/App.js i create the code which will allow me to connect to the previously created API and retrieve the GeoJSON. This object is used in a leaflet map using react-leaflet component
 ###### Instructions for deployment :
 To deploy easily the frontend, i used Netlify and a github repository of the [client app](https://github.com/alexfroger/airwareclientapp). The url is [https://airwaretest.netlify.com/](https://airwaretest.netlify.com/)
 
 #### Todo/ideas of enhancements:
-- Deploy the application to S3 to make it available via a domain name using AWS Route 53 and secure the application in https with Aws Certificate Manage
+- An other way to deploy our frontend application is to use AWS S3 to make it available via a domain name using AWS Route 53 and secure the application in https with Aws Certificate Manage
 - Use Aws cognito to manage user, add a login page to secure the application
 - More advanced management of input sources from simple text or connected to file management API(s) like google drive, amazon, dropbox.
 - Integrate Bootstrap to make the application look more friendly with the package [React-Bootstrap](https://react-bootstrap.github.io/)
