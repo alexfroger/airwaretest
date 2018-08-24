@@ -40,6 +40,8 @@ To deploy easily the frontend, i used Netlify and a github repository of the [cl
 - An other way to deploy our frontend application is to use AWS S3 to make it available via a domain name using AWS Route 53 and secure the application in https with Aws Certificate Manage
 - Use Aws cognito to manage user, add a login page to secure the application
 - More advanced management of input sources from simple text or connected to file management API(s) like google drive, amazon, dropbox.
+- Be able to manage other formats other than JSON in input (XML, CSV, GeoJSON directly)
+- Set up filters with html selectors to display data only by type and/or year.
 - Integrate Bootstrap to make the application look more friendly with the package [React-Bootstrap](https://react-bootstrap.github.io/)
 - Implementation of unit test with Jest to test the proper functioning of the code and improve the quality of the code.
 - Set up SSL to serve our app over HTTPS
