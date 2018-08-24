@@ -13,7 +13,7 @@ The goal was to develop a Fullstack serverless application to display GeoJSON da
 - Set up AWS S3 service to store and access to the JSON file of the geographical data. i created a bucket name "geo-data-json" with the right permissions to access with our application.
 - Install and set up the serverless Framework to work with AWS Lambda & AWS API Gateway services
 - Create an API project using [nodeJS starter](https://github.com/AnomalyInnovations/serverless-nodejs-starter).
-This starter pack have this avantages for me: 
+This starter pack have this avantages for me:  
 *Use a similar version of JavaScript in the frontend and backend.
 *Allow you to run API Gateway, Lambda locally with the plugin serverless-offline.
 *And add support for unit tests. Unfortunately, I didn't have enough time to use it.
