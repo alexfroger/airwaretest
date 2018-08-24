@@ -10,7 +10,7 @@ The goal was to develop a Fullstack serverless application to display GeoJSON da
 ### Achievements :
 #### Backend (folder api):
 - Install and set up AWS CLI to manage easily the AWS services from command line interface for this we need Acess key ID ans Secret access key from AWS account User.
-- Set up AWS S3 service to store and access to the JSON file of the geographical data
+- Set up AWS S3 service to store and access to the JSON file of the geographical data. i created a bucket name "geo-data-json" with the right permissions to access with our application.
 - Install and set up the serverless Framework to work with AWS Lambda & AWS API Gateway services
 - Create an API project using [nodeJS starter](https://github.com/AnomalyInnovations/serverless-nodejs-starter)
 This starter pack have this avantages for me : 
@@ -22,7 +22,7 @@ This starter pack have this avantages for me :
 - Write the various backend APIs with nodeJS. For the needed, just one function call getDataGeoJson, who return all the geographical data formatted in GeoJSON.
 ###### Instructions for deployment :
 The api backend has already deploy by me in AWS services, [here is the endpoints url](https://awtpiluamk.execute-api.eu-west-3.amazonaws.com/dev/airwaretest)
-If you want to deploy the project in local, you just need to launch this command line:
+To deploy the local project in our AWS services, i just need to launch this command line
 ``` bash
 $ serverless deploy
 ```
